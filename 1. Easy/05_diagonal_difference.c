@@ -1,3 +1,7 @@
+// Problem: Diagonal Difference
+// link: https://www.hackerrank.com/challenges/diagonal-difference/problem
+// Approach: Input a square matrix of size N x N and print it row by row using nested loops.
+
 #include<stdio.h>
 #include<math.h>
 
