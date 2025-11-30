@@ -1,3 +1,8 @@
+// Problem: compare the triplets
+// link: https://www.hackerrank.com/challenges/compare-the-triplets/problem
+// Approach: Compare each score of Alice and Bob; award a point to whoever has the higher value,
+//           then print both totals.
+
 #include<stdio.h>
 
 int main(){

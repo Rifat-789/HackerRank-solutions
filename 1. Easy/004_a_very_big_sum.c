@@ -1,3 +1,7 @@
+// Problem: A vary big sum
+// link: https://www.hackerrank.com/challenges/a-very-big-sum/problem
+// Approach: Read all the large integers and add them using a long long variable to avoid overflow.
+
 #include<stdio.h>
 #include<stdlib.h>
 
