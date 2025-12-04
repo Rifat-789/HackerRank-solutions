@@ -1,8 +1,11 @@
+// Problem: Staircase
+// link: https://www.hackerrank.com/challenges/staircase/problem
+// Approach: For each row, print size - i spaces followed by i hash characters.
+
 #include<stdio.h>
 
 int main(){
 
-    char sign = '#';
     int size = 0;
 
     scanf("%d", &size);
