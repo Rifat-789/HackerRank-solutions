@@ -1,3 +1,9 @@
+// Problem: Migratory Birds
+// link: https://www.hackerrank.com/challenges/migratory-birds/problem
+// Approach: // Count the frequency of each bird type using an array.
+//              Find the bird type with the highest frequency.
+//              If multiple types have the same frequency, return the smallest ID.
+
 #include<stdio.h>
 #include<stdlib.h>
 
