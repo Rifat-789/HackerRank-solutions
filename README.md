@@ -32,8 +32,8 @@ Each solution contains:
 
 ## 📈 Progress
 
--  Easy : 25
--  Medium :
+-  Easy : 27
+-  Medium : 02
 -  Hard : 
 
 ---
