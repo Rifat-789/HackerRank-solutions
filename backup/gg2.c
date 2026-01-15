@@ -1,3 +1,4 @@
+
 // Problem: Climbing the Leaderboard
 // link: https://www.hackerrank.com/challenges/climbing-the-leaderboard/problem
 // Approach: Remove duplicate scores from the leaderboard to create a unique ranking list.
