@@ -1,30 +1,46 @@
+// Problem: Repeated String
+// link: https://www.hackerrank.com/challenges/repeated-string/problem
+// Approach: First, find the length of the string and count how many times 'a' appears in it. Then calculate
+//           how many full repetitions of the string fit into n and multiply that by the 'a' count. 
+//           Finally, count 'a' in the remaining characters and add it to the total.
+
+
 #include<stdio.h>
 
 int main(){
 
-    char s[100];
-    scanf("%s", &s);
+    char s[101];
+    scanf("%s", s);
 
-    int n = 0;
-    scanf("%d", &n);
+    long long n = 0;
+    scanf("%lld", &n);
 
-    int count = 0;
-    for (int i = 0;s[i] != '\0' ; i++){
-        count++;
+    long long length = 0;
+    for (int i = 0;s[i] != '\0' ; i++){                                 // This calculates the length of the string
+        length++;
     }
     
-    int result = n / count;
-    int remainder = n % count;
+    long long result = n / length;
+    long long remainder = n % length;
 
-    int frequency = 0;
-    for (int i = 0;s[i] != '\0'; i++){
+    long long frequency = 0;
+    for (int i = 0;s[i] != '\0'; i++){                                  // This calculates how many 'a' is in the string
         if (s[i] == 'a'){
             frequency++;
         }
     }
 
-    int total = result * frequency;
-    int final = total + remainder;
+    long long total = result * frequency;
+    long long extra = 0;
+    for (int i = 0; i < remainder; i++){                                // This calculates number of extra 'a' in the remainder
+        if (s[i] == 'a'){
+            extra++;
+        }
+        
+    }
+    
+
+    long long final = total + extra;
     
     printf("%lld", final);
 
