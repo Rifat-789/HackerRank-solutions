@@ -1,4 +1,3 @@
-
 // Problem: Non-Divisible Subset
 // link: https://www.hackerrank.com/challenges/non-divisible-subset/problem
 // Approach: Calculate and store the frequency of each remainder. If index 0 has value higher than 0 , count = 1. 
