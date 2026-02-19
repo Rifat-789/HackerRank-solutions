@@ -32,7 +32,7 @@ Each solution contains:
 
 ## 📈 Progress
 
--  Easy : 48
+-  Easy : 49
 -  Medium : 07
 -  Hard : 
 
