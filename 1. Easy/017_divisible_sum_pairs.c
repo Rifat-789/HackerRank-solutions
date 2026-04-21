@@ -1,8 +1,8 @@
 // Problem: Divisible Sum Pairs
 // link: https://www.hackerrank.com/challenges/divisible-sum-pairs/problem
-// Approach: // Approach: Use two nested loops to generate all pairs (i, j) such that i < j.
-//              For each pair, check if the sum of the two elements is divisible by k.
-//              Increment the count for every valid pair.
+// Approach: Use two nested loops to generate all pairs (i, j) such that i < j.
+//           For each pair, check if the sum of the two elements is divisible by k.
+//           Increment the count for every valid pair.
 
 
 #include<stdio.h>
