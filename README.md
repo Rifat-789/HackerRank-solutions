@@ -33,7 +33,7 @@ Each solution contains:
 ## 📈 Progress
 
 -  Easy : 53
--  Medium : 08
+-  Medium : 09
 -  Hard : 
 
 ---
